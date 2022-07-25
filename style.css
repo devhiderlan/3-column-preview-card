@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Lexend Deca', sans-serif;
+  /* font-family: "Big Shoulders Display", sans-serif; */
+}
+
+body {
+  background: hsl(0, 0%, 95%);
+  height: 100vh;
+  width: 100%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main.cards {
+  display: flex;
+  padding: 32px;
+}
+
+main.cards section.card {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  text-align: left;
+  background: white;
+  padding: 2.5rem 2.5rem;
+  /* max-height: 256px; */
+  /* margin-left: 32px; */
+}
+
+main.cards section.card:first-child {
+  background: hsl(31, 77%, 52%);
+}
+
+main.cards section.card:nth-child(2) {
+  background: hsl(184, 100%, 22%);
+}
+
+main.cards section.card:nth-child(3) {
+  background: hsl(179, 100%, 13%);
+}
+
+main.cards section.card .icon {
+  width: 64px;
+  height: 64px;
+}
+
+main.cards section.card img {
+  width: 100%;
+}
+
+main.cards section.card h2 {
+  margin: 16px 0px;
+  text-transform: uppercase;
+  font-family: 'Big Shoulders Display', sans-serif;
+  font-size: 35px;
+  font-weight: bold;
+
+  color: hsla(0, 0%, 100%, 0.75);
+}
+
+main.cards section.card span {
+  max-width: 220px;
+  margin-bottom: 100px;
+  line-height: 1.5;
+  color: hsla(0, 0%, 100%, 0.75);
+}
+
+main.cards section.card button {
+  padding: 0.7rem 0.5rem;
+  border-radius: 32px;
+  cursor: pointer;
+  margin-top: 20px;
+  max-width: 130px;
+}
