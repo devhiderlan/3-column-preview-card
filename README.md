@@ -2,7 +2,7 @@
 
 ## Welcome! 👋
 
-![Design preview for the 3-column preview card component coding challenge](./design/desktop-preview.jpg)
+![Design preview for the 3-column preview card component coding challenge](./design/project-3-column.png)
 
 
 
